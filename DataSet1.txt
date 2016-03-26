@@ -1,0 +1,20 @@
+books camera laptop headphones table
+cellphone monitor mouse TV keyboard
+clothes shoes cosmetics headphones TV
+cellphone TV books chair 
+shoes camera clothes cosmetics
+cellphone books 
+cosmetics shoes books 
+mouse keyboard headphones cosmetics
+chair table books 
+cellphone laptop TV 
+camera laptop clothes chair
+table mouse books shoes 
+cosmetics clothes shoes laptop
+chair mouse TV camera 
+headphones monitor laptop camera 
+books mouse laptop cosmetics
+clothes cosmetics cellphone TV
+table chair headphones shoes
+camera cosmetics laptop cellphone
+books camera clothes cellphone TV 
