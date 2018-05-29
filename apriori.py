@@ -132,6 +132,7 @@ def frequent_itemsets():
 """generate_association_rules function to mine and print all the association rules with given support and confidence value"""
 
 def generate_association_rules():
+    lengthofD=len(D)
     s = []
     r = []
     length = 0
@@ -148,8 +149,7 @@ def generate_association_rules():
         for l in list:
             length = len(l)
             count = 1
-            while count < length: 
-                s = []
+            while count < length:
                 r = findsubsets(l,count)
                 count += 1
                 for item in r:
@@ -168,7 +168,7 @@ def generate_association_rules():
                         for index in l:
                             if index not in s:
                                 m.append(index)
-                        print "Rule#  %d : %s ==> %s %d %d" %(num, s, m, 100*inc2/len(D), 100*inc2/inc1)
+                        print "Rule#  %d : %s ==> %s %d %d" %(num, s, m, 100*inc2/lengthofD, 100*inc2/inc1)
                         num += 1  
 
 generate_association_rules()   
